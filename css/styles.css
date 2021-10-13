@@ -672,6 +672,40 @@ min-width: 73px;
   margin-left: var(--card-set-gap);
 }
 
+.box {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(33, 150, 243, 0.9);
+
+  transform: translateY(101%);
+  transition: transform 250ms ease;
+}
+
+.projects-overlay-text {
+margin: 63px 24px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1.56;
+letter-spacing: 0.03em;
+color: var(--primary-white-color);
+cursor: pointer;
+}
+
+.box:hover .overlay {
+  transform: translateY(0);
+}
+
 /* .projects-card:hover,
 .projects-card:focus, */
 /* .projects-list-link:hover,
