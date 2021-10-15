@@ -275,12 +275,9 @@ transition: var(--trans-duration) var(--transit-timing-function);
   transition: var(--trans-duration) var(--transit-timing-function);
   }
 
-  /* .hero-btn,
   .btn-active {
-  transition: color var(--trans-duration) var(--transit-timing-function),
-  backgound-color var(--trans-duration) var(--transit-timing-function),
-  box-shadow var(--trans-duration) var(--transit-timing-function);
-  } */
+  transition: var(--trans-duration) var(--transit-timing-function);
+  }
 
 .hero-btn:hover,
 .hero-btn:focus {
